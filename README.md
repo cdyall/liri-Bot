@@ -19,9 +19,8 @@ LIRI is a Language Interpretation and Recognition Interface. LIRI will be a comm
    * `do-what-it-says`
 
 
-### Motivation
 
-This is a project for Omar Patel's class at UCLA where we are learning to implement node.js.
+
 ------------------------------------------------------------------------------------------------------------------------------------------------
 ## TECHNOLOGIES USED
 * Javascript
