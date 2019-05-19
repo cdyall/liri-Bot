@@ -47,8 +47,6 @@ function conInfo(input) {
     input +
     "/events?app_id=codingbootcamp";
 
-  // Print the query url.
-  console.log(queryUrl);
 
   // Performing get request
   axios.get(queryUrl).then(function(response) {
@@ -78,8 +76,6 @@ function spotInfo(songName) {
   if (!songName) {
     songName = "The Sign";
   }
-
-  console.log(songName);
 
   //Callback to spotify to search for song name
   spotify.search({ type: "track", query: songName }, function(err, data) {
@@ -114,9 +110,6 @@ function movInfo(movieName) {
     "https://www.omdbapi.com/?t=" +
     movieName +
     "&y=&plot=short&r=json&tomatoes=true&apikey=trilogy";
-
-  // Print the query url.
-  console.log(queryUrl);
 
   // Performing get request
   axios.get(queryUrl).then(function(response) {

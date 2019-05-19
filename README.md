@@ -18,9 +18,6 @@ LIRI is a Language Interpretation and Recognition Interface. LIRI will be a comm
 
    * `do-what-it-says`
 
-
-
-
 ------------------------------------------------------------------------------------------------------------------------------------------------
 ## TECHNOLOGIES USED
 * Javascript
@@ -36,7 +33,7 @@ LIRI is a Language Interpretation and Recognition Interface. LIRI will be a comm
 * Git
 * GitHub
 -------------------------------------------------------------------------------------------------------------------------------------------------
-### What it does
+## What it does
 
 #### Bands in Town Artist Events API
  `node liri.js concert-this <artist/band name here>`
@@ -89,9 +86,6 @@ Right now it will run `spotify-this-song` for "I Want it That Way,".
 As of right now it will only work with spotitfy. I am will continue to work towards the other functions working here as well.
 
 ## HOW TO USE LIRI
-### **Video Guide**
-
-Watch the video here:
 
 ### **Step by Step instructions**
 
@@ -105,7 +99,7 @@ Watch the video here:
     
     Output: The system will display a list of all events and locations where the artist or band will perform. The system will also log all the results in the log.txt file. See screen-shot below:
 
-    ![Results]()
+    ![Results](images/concert-this.png)
 
     **Example 2**: Run the `spotify-this-song` command
     
@@ -113,7 +107,7 @@ Watch the video here:
     
     Output: The system will display a list of information associated with the song. The system will also log all the results in the log.txt file. See screen-shot below:
 
-    ![Results]()
+    ![Results](images/spotify-this-song.png)
 
     **Example 3**: Run the `movie-this` command
     
@@ -121,7 +115,7 @@ Watch the video here:
     
     Output: The system will display information associated with the movie. The system will also log all the results in the log.txt file. See screen-shot below:
 
-    ![Results]()
+    ![Results](images/movie-this.png)
 
 
     **Example 4**: Run the `do-what-it-says` command
@@ -130,8 +124,6 @@ Watch the video here:
         
     Output: The system will read the text in the random.txt file, and perform the comman listed in the random.txt file. 
     
-    See screen-shot below:
-
-    ![Results]()
+    ![Results](images/do-what-it-says.png)
 
 
