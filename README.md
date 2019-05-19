@@ -99,7 +99,7 @@ As of right now it will only work with spotitfy. I am will continue to work towa
     
     Output: The system will display a list of all events and locations where the artist or band will perform. The system will also log all the results in the log.txt file. See screen-shot below:
 
-    ![Results](/images/concert-this.png)
+    ![Results](/screenshot/concert-this.png)
 
     **Example 2**: Run the `spotify-this-song` command
     
@@ -107,7 +107,7 @@ As of right now it will only work with spotitfy. I am will continue to work towa
     
     Output: The system will display a list of information associated with the song. The system will also log all the results in the log.txt file. See screen-shot below:
 
-    ![Results](/images/spotify-this-song.png)
+    ![Results](/screenshot/spotify-this-song.png)
 
     **Example 3**: Run the `movie-this` command
     
@@ -115,7 +115,7 @@ As of right now it will only work with spotitfy. I am will continue to work towa
     
     Output: The system will display information associated with the movie. The system will also log all the results in the log.txt file. See screen-shot below:
 
-    ![Results](/images/movie-this.png)
+    ![Results](/screenshot/movie-this.png)
 
 
     **Example 4**: Run the `do-what-it-says` command
@@ -124,6 +124,6 @@ As of right now it will only work with spotitfy. I am will continue to work towa
         
     Output: The system will read the text in the random.txt file, and perform the comman listed in the random.txt file. 
     
-    ![Results](/images/do-what-it-says.png)
+    ![Results](/screenshot/do-what-it-says.png)
 
 
