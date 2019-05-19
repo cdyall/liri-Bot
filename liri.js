@@ -122,14 +122,14 @@ function movInfo(movieName) {
 
      // properties end up being the string containing the show data we will print to the console
     var listing = [
-      "Title:" +movieResult.Title,
-      "Year:" +movieResult.Year,
-      "IMDB Rating:" +movieResult.Ratings[0],
-      "Rotten Tomatoes Rating:" +movieResult.Ratings[1],
-      "Country:" +movieResult.Country,
-      "Language:" +movieResult.Language,
+      "Title:" + movieResult.Title,
+      "Year:" + movieResult.Year,
+      "IMDB Rating:" + movieResult.Ratings[0].Value,
+      "Rotten Tomatoes Rating:" + movieResult.Ratings[1].Value,
+      "Country:" + movieResult.Country,
+      "Language:" + movieResult.Language,
       "Plot:" + movieResult.Plot,
-      "Actors:" +movieResult.Actors
+      "Actors:" + movieResult.Actors
     ].join("\n\n");
 
      // Append properties and the divider to log.txt, print showData to the console
@@ -142,28 +142,16 @@ function movInfo(movieName) {
 
 //Function for Random
 function doThis(){
-  //Reads text in random.txt file
-  fs.readFile("random.txt", "utf8", function(error, data) {
-      if (error) {
-          return console.log(error);
-      }
-      else {
-      console.log(data);
-
-      //creates a variable for data in random.txt
-      var randomData = data.split(",");
-      //passes data into spotInfo function
-     commands(randomData[0], randomData[1]);
-      }
-    //  console.log(randomData[0] + randomData[1]);
-
-           // Append properties and the divider to log.txt, print showData to the console
-    // fs.appendFile("log.txt", listing + divider, function(err) {
-    //   if (err) throw err;
-    //   console.log(data);
-    // });
+  fs.readFile('random.txt', "utf8", function(error, data){
+    if (error) {
+      return console.log(error);
+    }
+   
+    var info = data.split(',');
+    // Sends song name back to spotify function.
+    spotInfo(info[1]);
   });
-};
+}
 
 
 
