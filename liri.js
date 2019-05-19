@@ -140,5 +140,31 @@ function movInfo(movieName) {
   });
 }
 
+//Function for Random
+function doThis(){
+  //Reads text in random.txt file
+  fs.readFile("random.txt", "utf8", function(error, data) {
+      if (error) {
+          return console.log(error);
+      }
+      else {
+      console.log(data);
+
+      //creates a variable for data in random.txt
+      var randomData = data.split(",");
+      //passes data into spotInfo function
+     commands(randomData[0], randomData[1]);
+      }
+    //  console.log(randomData[0] + randomData[1]);
+
+           // Append properties and the divider to log.txt, print showData to the console
+    // fs.appendFile("log.txt", listing + divider, function(err) {
+    //   if (err) throw err;
+    //   console.log(data);
+    // });
+  });
+};
+
+
 
 command(liriCom,input);
