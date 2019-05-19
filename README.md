@@ -10,28 +10,28 @@
 
 LIRI is a Language Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data. Utilizing the followinig commands:
 
-   * `concert-this`
+    * `concert-this`
 
-   * `spotify-this-song`
+    * `spotify-this-song`
 
-   * `movie-this`
+    * `movie-this`
 
-   * `do-what-it-says`
+    * `do-what-it-says`
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 ## TECHNOLOGIES USED
-* Javascript
-* Nodejs
-* Node packages:
-    * Node-Spotify-API
-    * DotEnv
-    * Axios
-    * Moment
-* APIs used:
-    * Bands in Town
-    * OMDB
-* Git
-* GitHub
+    * Javascript
+    * Nodejs
+    * Node packages:
+        * Node-Spotify-API
+        * DotEnv
+        * Axios
+        * Moment
+    * APIs used:
+        * Bands in Town
+        * OMDB
+    * Git
+    * GitHub
 -------------------------------------------------------------------------------------------------------------------------------------------------
 ## What it does
 
@@ -40,11 +40,9 @@ LIRI is a Language Interpretation and Recognition Interface. LIRI will be a comm
 
 This will search the Bands in Town Artist Events API for an artist and render the following information about each event to the terminal:
 
-     * Name of the venue
-
-     * Venue location
-
-     * Date of the Event (use moment to format this as "MM/DD/YYYY")
+    * Name of the venue
+    * Venue location
+    * Date of the Event (use moment to format this as "MM/DD/YYYY")
 
 
 #### Spotify
@@ -52,10 +50,10 @@ This will search the Bands in Town Artist Events API for an artist and render th
 
 This will show the following information about the song in your terminal/bash window
 
-* Artist(s)
-* The song's name
-* A preview link of the song from Spotify
-* The album that the song is from
+    * Artist(s)
+    * The song's name
+    * A preview link of the song from Spotify
+    * The album that the song is from
 
 If no song is provided then your program will default to "The Sign" by Ace of Base
 
@@ -64,15 +62,15 @@ If no song is provided then your program will default to "The Sign" by Ace of Ba
 
 This will output the following information to your terminal/bash window:
 
-- Title of the movie.
-- Year the movie came out.
-- IMDB Rating of the movie.
-- Country where the movie was produced.
-- Language of the movie.
-- Plot of the movie.
-- Actors in the movie.
-- Rotten Tomatoes Rating.
-- Rotten Tomatoes URL.
+    * Title of the movie.
+    * Year the movie came out.
+    * IMDB Rating of the movie.
+    * Country where the movie was produced.
+    * Language of the movie.
+    * Plot of the movie.
+    * Actors in the movie.
+    * Rotten Tomatoes Rating.
+    * Rotten Tomatoes URL.
 
 If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
 
@@ -116,7 +114,6 @@ As of right now it will only work with spotitfy. I am will continue to work towa
     Output: The system will display information associated with the movie. The system will also log all the results in the log.txt file. See screen-shot below:
 
     ![Results](/screenshot/movie-this.png)
-
 
     **Example 4**: Run the `do-what-it-says` command
         
