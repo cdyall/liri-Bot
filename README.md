@@ -98,6 +98,7 @@ As of right now it will only work with spotitfy. I am will continue to work towa
     Output: The system will display a list of all events and locations where the artist or band will perform. The system will also log all the results in the log.txt file. See screen-shot below:
 
     ![concert-this](https://user-images.githubusercontent.com/46546078/58126623-58d93a00-7be1-11e9-97b5-ceb268286213.PNG)
+    
 
     **Example 2**: Run the `spotify-this-song` command
     
@@ -115,6 +116,7 @@ As of right now it will only work with spotitfy. I am will continue to work towa
     Output: The system will display information associated with the movie. The system will also log all the results in the log.txt file. See screen-shot below:
 
   ![movie-this](https://user-images.githubusercontent.com/46546078/58126780-bcfbfe00-7be1-11e9-95c4-8442234b1aee.PNG)
+
 
     **Example 4**: Run the `do-what-it-says` command
         
