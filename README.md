@@ -124,6 +124,6 @@ As of right now it will only work with spotitfy. I am will continue to work towa
         
     Output: The system will read the text in the random.txt file, and perform the comman listed in the random.txt file. 
     
-    ![do-what-it-says](https://user-images.githubusercontent.com/46546078/58126853-fb91b880-7be1-11e9-8fcc-102545ae6808.PNG)
+    ![do-what-it-says](https://user-images.githubusercontent.com/46546078/58179007-4b6d8f80-7c75-11e9-8397-fc539e0eb6af.PNG)
 
 
