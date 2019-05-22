@@ -118,11 +118,11 @@ As of right now it will only work with spotitfy. I am will continue to work towa
   ![movie-this](https://user-images.githubusercontent.com/46546078/58126780-bcfbfe00-7be1-11e9-95c4-8442234b1aee.PNG)
 
 
-    **Example 4**: Run the `do-what-it-says` command
+   **Example 4**: Run the `do-what-it-says` command
         
         node liri.js do-what-it-says
-        
-    Output: The system will read the text in the random.txt file, and perform the comman listed in the random.txt file. 
+   
+   Output: The system will read the text in the random.txt file, and perform the comman listed in the random.txt file. 
     
    ![do-what-it-says](https://user-images.githubusercontent.com/46546078/58179007-4b6d8f80-7c75-11e9-8397-fc539e0eb6af.PNG)
 
