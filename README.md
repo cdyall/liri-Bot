@@ -106,7 +106,7 @@ As of right now it will only work with spotitfy. I am will continue to work towa
     
     Output: The system will display a list of information associated with the song. The system will also log all the results in the log.txt file. See screen-shot below:
 
-    ![spotify-this-song](https://user-images.githubusercontent.com/46546078/58126722-93db6d80-7be1-11e9-87af-923e66ea42ed.PNG)
+     ![spotify-this-song](https://user-images.githubusercontent.com/46546078/58126722-93db6d80-7be1-11e9-87af-923e66ea42ed.PNG)
 
 
     **Example 3**: Run the `movie-this` command
@@ -115,10 +115,10 @@ As of right now it will only work with spotitfy. I am will continue to work towa
     
     Output: The system will display information associated with the movie. The system will also log all the results in the log.txt file. See screen-shot below:
 
-  ![movie-this](https://user-images.githubusercontent.com/46546078/58126780-bcfbfe00-7be1-11e9-95c4-8442234b1aee.PNG)
+      ![movie-this](https://user-images.githubusercontent.com/46546078/58126780-bcfbfe00-7be1-11e9-95c4-8442234b1aee.PNG)
 
 
-   **Example 4**: Run the `do-what-it-says` command
+    **Example 4**: Run the `do-what-it-says` command
         
         node liri.js do-what-it-says
    
